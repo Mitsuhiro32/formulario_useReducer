@@ -1,0 +1,21 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  /* text-align: center; */
+}
+
+Form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+Form label {
+  font-weight: bold;
+}
+
+Form input {
+  padding: 5px;
+  margin-left: 5px;
+}
